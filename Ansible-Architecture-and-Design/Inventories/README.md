@@ -72,8 +72,8 @@ server1
 
 #### File name: hosts
 
-*Note: For providing the username only you can use*  __ansible_user=admin__ *this keyword* *and for providing the custom port you can use* __ansible_port=89__
-*and for the password __ansible_password: Cisco123__* *keep in mind that we are doing all in hosts file but there are alternate way to pass the username password and custom port*
+*Note: For providing the username only you can use*  (__ansible_user=admin__) *this keyword* *and for providing the custom port you can use* (__ansible_port=89__)
+*and for the password (__ansible_password: Cisco123__)* *keep in mind that we are doing all in hosts file but there are alternate way to pass the username password and custom port*
 *using using group_vars directory*  
 ```python
 [SRV1]
