@@ -105,3 +105,70 @@ ansible_user=admin
 ansible_port=1234
 ansible_password: Cisco123
 ```
+
+## -------------------- Note 06 -----------------------
+
+#### File name: ansible.cfg --> updated
+  
+```python
+[defaults]
+inventory = hosts.json
+host_key_checking = False
+```
+#### File name: hosts.json
+```python
+{
+    "SRV1": {
+        "hosts": {
+            "192.168.1.1":
+            "192.168.1.2":{
+                ansible_connection: local # you can pass the connection or some other parameters like username and password etc
+            }
+        }
+    }
+    "SRV2":{
+        "hosts":{
+            "192.168.2.1":
+            "webserver.com":
+            "server1":
+        }
+        "vars":{
+            "ansible_become": true,
+            "ansible_become_pass": "password"
+        }
+    }
+
+}
+
+```
+## -------------------- Note 07 -----------------------
+
+#### File name: ansible.cfg --> updated
+  
+```python
+[defaults]
+inventory = hosts.yaml
+host_key_checking = False
+```
+#### File name: hosts.yaml
+
+```python
+
+---
+SRV1:
+  hosts:
+      192.168.1.1 
+      192.168.1.2 
+SRV2:
+  hosts:
+    192.168.2.1:
+      ansible_connection: local # you can pass the connection or some other parameters like username and password etc 
+    webserver.com
+    server1
+  vars:
+    ansible_user=admin 
+    ansible_port=1234
+    ansible_password: Cisco123
+...
+
+```
