@@ -9,12 +9,12 @@ project-folder/
 └── playbook.yml
 
 ```
-#### file name: ansible.cfg
+#### File name: ansible.cfg
 ```python
 [defaults]
 inventory = hosts
 ```
-#### file name: hosts
+#### File name: hosts
 
 ```python
 [all]
@@ -33,13 +33,15 @@ project-folder/
 └── playbook.yml
 
 ```
-#### file name: ansible.cfg
+#### File name: ansible.cfg
 ```python
 [defaults]
 inventory = hosts
-host_key_checking = False
+host_key_checking = False 
 ```
-#### file name: hosts
+Note: Setting *host_key_checking = False* disables this safety check. It means Don’t verify or prompt for SSH host keys — just connect directly.
+
+#### File name: hosts
 
 ```python
 [all]
