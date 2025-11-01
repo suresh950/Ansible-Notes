@@ -39,7 +39,7 @@ project-folder/
 inventory = hosts
 host_key_checking = False 
 ```
-Note: Setting *host_key_checking = False* disables this safety check. It means Don’t verify or prompt for SSH host keys — just connect directly.
+Note: Setting in *ansible.cfg* - *host_key_checking = False* disables this safety check. It means Don’t verify or prompt for SSH host keys — just connect directly.
 
 #### File name: hosts
 
