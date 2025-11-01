@@ -1,5 +1,6 @@
 # Basic Inventories configuration
 
+## -------------------- Note 01 -------------------------------------------------------
 #### File Structure
 ```python
 project-folder/
