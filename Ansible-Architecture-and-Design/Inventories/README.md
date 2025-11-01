@@ -100,7 +100,7 @@ server1
 webserver.com
 server1
 
-[SRV:vars] # Note this will be applicable for all the host present in same way you can do it for 
+[SRV:vars] # Note this will be applicable for all the host present in this Group SRV1, same way you can do it for SRV2 and other group
 ansible_user=admin 
 ansible_port=1234
 ansible_password: Cisco123
