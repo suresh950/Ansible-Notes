@@ -157,14 +157,14 @@ host_key_checking = False
 ---
 SRV1:
   hosts:
-      192.168.1.1 
-      192.168.1.2 
+      192.168.1.1: 
+      192.168.1.2: 
 SRV2:
   hosts:
     192.168.2.1:
       ansible_connection: local # you can pass the connection or some other parameters like username and password etc 
-    webserver.com
-    server1
+    webserver.com:
+    server1:
   vars:
     ansible_user=admin 
     ansible_port=1234
