@@ -4,9 +4,9 @@
 ```python
 project-folder/
 ├── ansible.cfg
-├── group_vars
+├── group_vars/
     ├── groupname
-├── host_vars
+├── host_vars/
     ├── hostname
 ├── hosts
 └── playbook.yml
