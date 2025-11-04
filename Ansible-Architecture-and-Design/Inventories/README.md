@@ -172,3 +172,9 @@ SRV2:
 ...
 
 ```
+Rough ignore below 
+    - name: Save output for later use
+      delegate_to: localhost
+      copy:
+        content: "{{ cmd_output.stdout | to_nice_yaml }}"
+        dest: "output/{{ inventory_hostname }}.yml"
