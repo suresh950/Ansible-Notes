@@ -17,7 +17,7 @@
 
 #### 🌐 2. Network Connection Plugins
 
- | Plugin	 | Used For	 | Example ansible_network_os
+ | Plugin	 | Used For	| Example ansible_network_os
  |--- |--- |--- | 
  | network_cli | 	CLI-based access via SSH (most network devices).  | 	nxos, ios, eos, asa, junos, etc.
  | httpapi  | 	API-based connection over HTTP/HTTPS.  | 	paloaltonetworks.panos, cisco.ise, f5networks.f5os, etc.
@@ -42,7 +42,7 @@
 
 ####  🧠 Example Mapping
  | 	Device  | 	Type	Connection Plugin | 	Network OS
- |--- |--- | 
+ |--- |--- |---|
  | Cisco  NX-OS	 | network_cli	 | nxos
  | Cisco IOS-XE	 | network_cli / httpapi	 | ios or iosxe
  | Cisco ASA	 | network_cli	 | asa
