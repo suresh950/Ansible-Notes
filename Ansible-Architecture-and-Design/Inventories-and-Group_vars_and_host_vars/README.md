@@ -17,19 +17,19 @@ project-folder/
 ```python
 ---
 ansible_network_os: nxos
-ansible_user: admin
-ansible_password: Admin_1234!
+ansible_user: abc
+ansible_password: xyz
 ...
 
 ```
 ## -------------------- Note 02 ------------------------
-#### File name should be host_vars
+#### You need to have dir directory named host_vars, and you can have a host inside as a file, like you can see in the Structure above 
 
 ```python
 ---
 ansible_network_os: nxos
-ansible_user: admin
-ansible_password: Admin_1234!
+ansible_user: abc
+ansible_password: xyz
 ...
 
 ```
