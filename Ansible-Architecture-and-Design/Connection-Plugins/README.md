@@ -1,6 +1,7 @@
 ####  🧩 1. Core Connection Plugins 
 
 | Plugin	| Description
+|--- |--- |
 | ssh	| Default for most hosts. Uses OpenSSH or paramiko to connect over SSH.
 | paramiko	| Python-based SSH (used when ssh binary is unavailable).
 | local | 	Runs tasks locally on the Ansible control node (no SSH).
