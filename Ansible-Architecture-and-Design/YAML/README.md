@@ -54,7 +54,7 @@ module: >
 # Every YAML file should end with three dots
 ...
 ```
-# ==== Note 02 ====
+# ==== Note 03 ====
 ```Python
 # Every YAML file should start with three dashes
 ---
@@ -65,3 +65,18 @@ example_integer: "1"  # ---> this is string
 # Every YAML file should end with three dots
 ...
 ```
+# ==== Note 04 ====
+```Python
+---
+# Every YAML file should start with three dashes
+
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+
+# Every YAML file should end with three dots
+...
+```
+![List](Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h48_18.png "List")
