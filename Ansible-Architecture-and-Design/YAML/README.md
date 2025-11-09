@@ -151,8 +151,28 @@ example_2:
 ![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h16_56.png)
 
 
+```python
+---
+# Every YAML file should start with three dashes
 
+example_dictionary_1:
+  - example_dictionary_2:
+    - 1
+    - 2
+    - 3
+  - example_dictionary_3:
+    - 4
+    - 5
+    - 6
+  - example_dictionary_4:
+    - 7
+    - 8
+    - 9
 
+# Every YAML file should end with three dots
+...
+```
+![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h19_21.png)
 
 
 
