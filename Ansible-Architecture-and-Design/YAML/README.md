@@ -91,7 +91,7 @@ key_2: value_2
 # Every YAML file should end with three dots
 ...
 ```
-![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h56_48.png "List")
+![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h56_48.png "Dictionary")
 
 ```python
 ---
@@ -102,10 +102,19 @@ key_2: value_2
 # Every YAML file should end with three dots
 ...
 ```
-![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h59_14.png "List")
+![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h59_14.png "Dictionary")
 
+```python
+---
+# Every YAML file should start with three dashes
 
+[example_list_entry_1, example_list_entry_2]
 
+# Every YAML file should end with three dots
+...
+```
+
+![List](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h01_13.png "List")
 
 
 
