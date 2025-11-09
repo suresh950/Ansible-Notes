@@ -176,6 +176,8 @@ example_dictionary_1:
 
 
 ```python
+---
+# Every YAML file should start with three dashes
 - name: this is the playbook
   host: localhost
   connection: local
@@ -190,9 +192,10 @@ example_dictionary_1:
     - name: this is second task
       test:
         test1: testvalue
-    
+# Every YAML file should end with three dots
+...    
 ```
-
+![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h24_52.png)
 
 
 
