@@ -80,3 +80,48 @@ example_integer: "1"  # ---> this is string
 ...
 ```
 ![List](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h48_18.png "List")
+
+```python
+---
+# Every YAML file should start with three dashes
+
+key_1: value_1
+key_2: value_2
+
+# Every YAML file should end with three dots
+...
+```
+![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h56_48.png "List")
+
+```python
+---
+# Every YAML file should start with three dashes
+
+{example_key_1: example_value_1, example_key_2: example_value_2}
+
+# Every YAML file should end with three dots
+...
+```
+![Dictionary](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h59_14.png "List")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
