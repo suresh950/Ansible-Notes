@@ -175,7 +175,23 @@ example_dictionary_1:
 ![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h19_21.png)
 
 
-
+```python
+- name: this is the playbook
+  host: localhost
+  connection: local
+  vars:
+    key: value
+  tasks:
+    - name: this is first task
+      module:
+        copy:
+          src: value
+          dst: dist_value
+    - name: this is second task
+      test:
+        test1: testvalue
+    
+```
 
 
 
