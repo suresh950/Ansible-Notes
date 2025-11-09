@@ -210,7 +210,7 @@ key_1: value_1
 ...
  
 ```
-![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h30_07.png)
+![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h41_59.png)
 
 # ==== Note 06 ====
 
