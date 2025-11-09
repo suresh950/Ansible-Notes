@@ -79,4 +79,4 @@ example_integer: "1"  # ---> this is string
 # Every YAML file should end with three dots
 ...
 ```
-![List](Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h48_18.png "List")
+![List](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_10h48_18.png "List")
