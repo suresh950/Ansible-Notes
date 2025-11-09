@@ -116,8 +116,20 @@ key_2: value_2
 
 ![List](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h01_13.png "List")
 
+```python
+---
+# Every YAML file should start with three dashes
 
+example_key_1:
+  sub_example_key1: sub_example_value1
 
+example_key_2:
+  sub_example_key2: sub_example_value2
+
+# Every YAML file should end with three dots
+...
+```
+![](https://github.com/suresh950/Ansible-Notes/blob/main/Ansible-Architecture-and-Design/YAML/image/2025-11-09_11h14_05.png)
 
 
 
