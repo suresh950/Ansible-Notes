@@ -203,8 +203,8 @@ example_dictionary_1:
 ---
 # Every YAML file should start with three dashes
 
-example_key_1: example_value_1
-- example_list_entry_1
+key_1: value_1
+- list1
 
 # Every YAML file should end with three dots
 ...
@@ -218,8 +218,8 @@ example_key_1: example_value_1
 ---
 # Every YAML file should start with three dashes
 
-{example_key_1: example_value_1}
-[example_list_entry_1]
+{key_1: value_1}
+[list1]
 
 # Every YAML file should end with three dots
 ...
