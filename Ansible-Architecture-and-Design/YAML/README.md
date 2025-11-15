@@ -27,7 +27,7 @@ module: |
 ...
 ```
 AND
-#### Note: if you see the value, it will look like a single line separated with a space; *Note the > and next line*
+#### Note: if you see the value, it will look like a single line separated with a space, and at the end it will give you the next line; *Note the > and next line*
 ```python
 # Every YAML file should start with three dashes
 ---
@@ -41,12 +41,12 @@ module: >
 ...
 ```
 AND
-#### Note: if you see the value, it will look like a single line separated with a space, and at theend  it will give you the new line like this \n; *Note the > and next line*
+#### Note: if you see the value, it will result in a single line separated with a space; *>*
 ```python
 # Every YAML file should start with three dashes
 ---
 
-module: >
+module: >-
   single line part1 
   single line part2
   single line part3
