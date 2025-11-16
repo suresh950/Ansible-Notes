@@ -1,5 +1,6 @@
 # Ansible-Notes
 Ansible-Notes
+```bash
 mainpyub@mainpyub:~$ cd /etc/apt/
 mainpyub@mainpyub:/etc/apt$ cd sources.list.d/
 mainpyub@mainpyub:/etc/apt/sources.list.d$ 
@@ -18,3 +19,4 @@ Components: main restricted universe multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 mainpyub@mainpyub:/etc/apt/sources.list.d$ 
 mainpyub@mainpyub:/etc/apt/sources.list.d$ 
+```
